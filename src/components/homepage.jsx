@@ -130,15 +130,15 @@ function HomePage() {
   //   });
   // };
 
-  const handleSearch = async () => {
-    await fetch(`${process.env.REACT_APP_BASE_URL}/`, {
-      method: "GET",
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        setArr(data.Search);
-      });
-  };
+  // const handleSearch = async () => {
+  //   await fetch(`${process.env.REACT_APP_BASE_URL}/`, {
+  //     method: "GET",
+  //   })
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       setArr(data.Search);
+  //     });
+  // };
 
   // const getSearchedData = () => {
   //   const newData = arr.filter((item) => item.name.includes(searchStr));
