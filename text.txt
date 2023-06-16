@@ -1,7 +1,0 @@
-.includes
-.filter
-.find
-.map
-.forEach
-.reduce
-.every

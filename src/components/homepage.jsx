@@ -19,7 +19,6 @@ function HomePage() {
     i++;
   }
 
-
   //   console.log(pageArr);
   // const [count, setCount] = useState(0);
   // useEffect(() => {
@@ -76,7 +75,8 @@ function HomePage() {
   //   }).then((res) => {
   //     if (res.ok) {
   //       alert("Posted!");
-  //     }
+  //     }else{
+  //       alert("Error Occured!");
   //   });
   // };
 
@@ -159,9 +159,7 @@ function HomePage() {
 
   return (
     <div>
-      <Navbar>
-        
-      </Navbar>
+      <Navbar />
       {/* <button onClick={handlePost}>Post</button> */}
       {/* <input
         type="text"
@@ -188,6 +186,7 @@ function HomePage() {
       {pageArr.map((el) => {
         return <button onClick={() => handlePage(el)}>{el}</button>;
       })}
+      {/* <img src="./logo192.png" alt="" /> */}
     </div>
   );
 }
